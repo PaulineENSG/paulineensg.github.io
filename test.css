@@ -1,0 +1,132 @@
+html {
+    font-family: arial,sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1330px ;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header img{
+    width: 37px;
+}
+
+#contenu {
+    padding-top: 120px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+#box img {
+    width: 22px;
+    height: 22px;
+}
+
+#logo img{
+    width :300px;
+    padding-bottom: 30px;
+}
+#box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: #dfe1e5;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+#box:hover {
+    box-shadow:0 1px 6px 0 rgba(32,33,36,0.28)
+    
+}
+
+#box input{
+    border : none;
+    width : 400px;
+    height : 40px
+}
+input:focus {
+    outline:  none;
+}
+
+#valid {
+    display: flex;
+    padding-top: 20px;
+    width: 300px;
+    justify-content: space-around;
+}
+
+#valid button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    height: 32px;
+    border-radius: 4px;
+    color: #5F6368;
+}
+
+#valid button:hover{
+    background-color: #f2f2f2;
+    border: 1px solid #5F6368;
+    height: 32px;
+    border-radius: 4px;
+    color:black;
+}
+
+.foot{
+    color: #5F6368;
+    background-color:#f2f2f2 ;
+    border-top:1px solid #e4e4e4 ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pays{
+    display: flex;
+    align-items: center;
+    height:40px
+}
+
+#autre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    position: absolute; bottom: 0;
+    font-size: 15px;
+}
+
+footer a{    
+    text-decoration: none;
+    color: #5F6368;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
